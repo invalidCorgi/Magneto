@@ -6,9 +6,14 @@
 
     <StackLayout>
         <!-- Place new controls here -->
-        <Label Text="Welcome to Xamarin.Forms!" 
-           HorizontalOptions="Center"
-           VerticalOptions="CenterAndExpand" />
+        <Label Text="x: " FontSize="Large" />
+        <Label x:Name="x" FontSize="Large" />
+        <Label Text="y: " FontSize="Large" />
+        <Label x:Name="y" FontSize="Large" />
+        <Label Text="z: " FontSize="Large" />
+        <Label x:Name="z" FontSize="Large" />
+        <Label Text="abs: " FontSize="Large" />
+        <Label x:Name="abs" FontSize="Large" />
     </StackLayout>
 
 </ContentPage>
